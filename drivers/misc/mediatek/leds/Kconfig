@@ -13,9 +13,8 @@ config LIGHTNESS_MAPPING_VALUE
  	---help---
 	  Backlight brightness mapping value, from 0 to 255.
 
-config BACKLIGHT_SUPPORT_LP8557
-	bool "Support backlight lp8557 board"
+config TB8173_EVB
+	bool "Support TB8173 EVB board"
 
-config LED_BREATHLIGHT_AW2013
-    tristate "breathlight aw2013"
-    default n
+config SGM3146
+	bool "Support SGM3146 backlight IC"
