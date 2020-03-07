@@ -444,7 +444,7 @@
 /*ACCDET END*/
 /* TOUCH GPIO standardization */
 &touch {
-	tpd-resolution = <480 800>;
+	tpd-resolution = <480 960;
 	use-tpd-button = <1>;
 	tpd-key-num = <3>;
 	tpd-key-local= <158 172 139 0>;
