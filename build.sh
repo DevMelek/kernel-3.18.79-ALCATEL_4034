@@ -1,7 +1,7 @@
 #!/bin/bash
 export KBUILD_BUILD_USER=melek
 export KBUILD_BUILD_HOST=TRY
-export CROSS_COMPILE=${PWD}/gcc/bin/arm-eabi-
+export CROSS_COMPILE=${PWD}/linaro_6.3/bin/arm-linux-gnueabihf
 export USE_CCACHE=1
 export ARCH=arm ARCH_MTK_PLATFORM=mt6580
 export TARGET=out
